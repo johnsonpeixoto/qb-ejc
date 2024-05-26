@@ -20,7 +20,8 @@ const documentReady = () => {
 
     let { scrollY } = window;
     sliderTitle.style.marginLeft = `${45 - (scrollY * 0.15)}%`;
-    sliderTitle.style.marginBottom = `-${scrollY}px`;
+    sliderTitle.style.marginBottom = `-${scrollY*0.25}px`;
+    sliderTitle.style.opacity = 1 - (scrollY * 0.003);
     sliderLearnButton.style.marginTop = `${scrollY}px`;
     sliderStarsImageContainer.style.top = `${scrollY * 0.25}px`;
     sliderMoonImageContainer.style.top = `${scrollY * 0.375}px`;

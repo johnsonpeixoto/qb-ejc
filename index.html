@@ -1,3 +1,17 @@
+<!-- 
+
+---  Falta colocar 
+
+- A seção de patrocínio vou segmentar conforme for as categorias OK
+
+- Slider com fotos do evento 
+
+- Link de inscrição 
+- Marca do evento 
+- Rodape com as redes sociais
+-->
+
+
 <!DOCTYPE html>
 <html lang="es">
 
@@ -59,7 +73,7 @@
       </div>
       <!-- <a href="#" class="slider__learn-button slider__learn-button--active">¡Aprender!</a> -->
       <figure class="slider__stars-image-container">
-        <img src="./img/turma.JPG" alt="Estrellas de fondo" class="slider__stars-image" />
+        <img src="./img/turma.JPG" alt="" class="slider__stars-image" />
       </figure>
       <!-- <figure class="slider__moon-image-container">
         <img src="./img/hero-moon.png" alt="Estrellas de fondo" class="slider__moon-image" />
@@ -82,7 +96,7 @@
                 <img src="./img/calendar-days-svgrepo-com.svg" alt="Ícono de etiqueta" class="schedule__topic-icon" />
               </div>
               <h3 class="schedule__topic-title">28 de julho de 2024</h3>
-              <p class="schedule__topic-paragraph">Texto auxiliar</p>
+              <!-- <p class="schedule__topic-paragraph">Texto auxiliar</p> -->
             </div>
 
             <div class="schedule__topic">
@@ -90,7 +104,7 @@
                 <img src="./img/clock-two-svgrepo-com.svg" alt="Ícono de componentes" class="schedule__topic-icon" />
               </div>
               <h3 class="schedule__topic-title">9h às 18h</h3>
-              <p class="schedule__topic-paragraph">Texto auxiliar</p>
+              <!-- <p class="schedule__topic-paragraph">Texto auxiliar</p> -->
             </div>
 
             <div class="schedule__topic">
@@ -98,40 +112,54 @@
                 <img src="./img/location-pin-svgrepo-com.svg" alt="Ícono de estilos" class="schedule__topic-icon" />
               </div>
               <h3 class="schedule__topic-title">Colégio Santo Inácio</h3>
-              <p class="schedule__topic-paragraph">Texto auxiliar</p>
+              <!-- <p class="schedule__topic-paragraph">Texto auxiliar</p> -->
             </div>
           </div>
           <!-- <h2 class="schedule__topic-title">Programação</h2> -->
-          <p class="schedule__paragraph">Texto auxiliar</p>
+          <div class="location__details">
+            <h4>Como chegar?</h4>
+            <p>(toque no mapa abaixo)</p>
+            <a href="https://www.google.com/maps/dir/-3.7731902,-38.5942431/Col%C3%A9gio+Santo+In%C3%A1cio+-+Av.+Des.+Moreira,+2355+-+Aldeota,+Fortaleza+-+CE,+60170-173/@-3.7466403,-38.5053848,15.83z/data=!4m19!1m8!3m7!1s0x7c74893e9e4e747:0x8e6fb93a5cf3e3d0!2sCol%C3%A9gio+Santo+In%C3%A1cio!8m2!3d-3.7463824!4d-38.5010622!15sChRjb2xlZ2lvIHNhbnRvIGluYWNpb5IBBnNjaG9vbOABAA!16s%2Fg%2F11c0vspk8c!4m9!1m1!4e1!1m5!1m1!1s0x7c74893e9e4e747:0x8e6fb93a5cf3e3d0!2m2!1d-38.5012551!2d-3.7463156!3e2?entry=ttu"
+              target="_blank" class="location__details-button">
+              <img src="./img/mapa.png" alt="Google Maps" class="location__details-button-icon" />
+            </a>
+          </div>
         </div>
       </div>
     </section>
 
     <section class="sponsor" id="sponsor">
       <div class="sponsor__container">
-        <h2>PATROCÍNIO</h2>
-        <div class="sponsor__topics">
-          <div class="sponsor__topic">
-            <div class="sponsor__topic-icon-container" style="clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%)">
-              <img src="./img/gov-ceara.webp" alt="" class="" />
+        <div class="sponsor__section" id="patro">
+          <h4>PATROCÍNIO</h4>
+          <div class="sponsor__topics">
+            <div class="sponsor__topic">
+              <div class="sponsor__topic-icon-container">
+                <img src="./img/gov-ceara.webp" alt="" class="" />
+              </div>
             </div>
           </div>
-
-          <div class="sponsor__topic">
-            <div class="sponsor__topic-icon-container">
-              <img src="./img/arqui.webp" alt="" class="" />
-            </div>
-          </div>
-
-          <div class="sponsor__topic">
-            <div class="sponsor__topic-icon-container">
-              <img src="./img/arqui.webp" alt="" class="" />
+        </div>
+        <div class="sponsor__section" id="apoio">
+          <h4>APOIO</h4>
+          <div class="sponsor__topics">
+            <div class="sponsor__topic">
+              <div class="sponsor__topic-icon-container">
+                <img src="./img/arqui.webp" alt="" class="" />
+              </div>
             </div>
           </div>
         </div>
       </div>
+      </div>
     </section>
   </main>
+
+  <footer>
+    <p style="padding: 1% 5%; text-align: center;">
+      EJC Fortaleza - Todos os direitos reservados &copy; 2024
+    </p>
+  </footer>
 
   <script src="./js/index.js" type="module"></script>
 </body>
